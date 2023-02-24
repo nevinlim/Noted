@@ -12,4 +12,4 @@ This is a simple JavaScript Note-taking application that can run on browsers.
 * Just a browser! :satisfied:
 
 ### <ins> How to get started? </ins>
-* just click [here](notedapplication.netlify.app)
+* just click [here](https://notedapplication.netlify.app)
