@@ -1,0 +1,95 @@
+body {
+    padding-right: 0px !important;
+    background-color: black;
+    color: white;
+}
+.light-mode {
+    background-color: white;
+    color: black;
+}
+.flex-parent {
+    display: flex;
+    width: 50%;
+}
+.flex-child {
+    flex: 1;
+}
+.main-container {
+    max-width: 60%;
+}
+.title-area {
+    height: 40px;
+}
+#note_title {
+    border: 1px solid black;
+}
+.form-inline .form-control {
+    width:800px;
+}
+.data-area {
+    min-height: 200px !important;
+}
+.note_container {
+    min-width: 100%;
+}
+.notes {
+    width: 100%;
+}
+#note_data {
+    resize: none; border: 1px solid black
+}
+.modal-header {
+    color: black;
+    background-color: white;
+}
+.modal-body {
+    color: black;
+    background-color: white;
+}
+button {
+    margin-bottom: 5px;
+}
+.main-container {
+    min-height: 100vh;
+}
+.fa {
+    padding: 3px 0 0 0; 
+    cursor:pointer;
+}
+.fa-pencil-square-o {
+    margin-left: 8.5rem;
+}
+.fa-eye {
+    margin-left: 8.5rem;
+}
+@media screen and (max-width: 1200px) {
+    .main-container
+    {
+        max-width: 80% !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    .main-container {
+        max-width: 90% !important;
+    }
+    .card {
+        max-width: 90% !important;
+    }
+    .note_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .notes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fcontent h6 {
+        font-size: 0.8rem !important;
+    }
+    .ml3 {
+        font-size: 1.5rem;
+    }
+}
