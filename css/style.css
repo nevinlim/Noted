@@ -57,10 +57,7 @@ button {
     cursor:pointer;
 }
 .fa-pencil-square-o {
-    margin-left: 8.5rem;
-}
-.fa-eye {
-    margin-left: 8.5rem;
+    margin-left: 6rem;
 }
 @media screen and (max-width: 1200px) {
     .main-container
